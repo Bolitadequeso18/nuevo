@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box
+}
+
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.numero1{
+    height: 900px;
+    display: grid;
+    grid-template-areas: 
+    'cajita-1 cajita-2 cajita-3 cajita-4 cajita-5 cajita-6'
+    'cajita-7 cajita-7 cajita-7 cajita-7 cajita-7 cajita-7'
+    'cajita-7 cajita-7 cajita-7 cajita-7 cajita-7 cajita-7'
+    'cajita-8 cajita-9 cajita-9 cajita-9 cajita-9 cajita-10'
+    'cajita-11 cajita-11 cajita-12 cajita-12 cajita-13 cajita-13'
+    'cajita-14 cajita-14 cajita-14 cajita-15 cajita-15 cajita-15'
+    'cajita-14 cajita-14 cajita-14 cajita-15 cajita-15 cajita-15';
+
+    background-color: rgb(148, 158, 139);
+    border: 1px solid black;
+}
+
+
+.caja {
+    border: 4px solid rgb(0, 0, 0);
+    background-color: rgb(153, 0, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+
+.primera{
+    grid-area: cajita-1;
+    background-color: aqua;
+}
+
+.segunda{
+    grid-area: cajita-2;
+    background-color: rgb(209, 221, 101);
+}
+.tercera{
+    grid-area: cajita-3;
+    background-color: rgb(233, 155, 39);
+}
+.cuarta{
+    grid-area: cajita-4;
+    background-color: rgb(70, 53, 28);
+}
+.quinta{
+    grid-area: cajita-5;
+    background-color: rgb(228, 129, 183);
+}
+.sexta{
+    grid-area: cajita-6;
+    background-color: rgb(219, 33, 33);
+}
+
+.séptima{
+    grid-area: cajita-7;
+    background-color: rgb(26, 82, 167);
+}
+
+.octava{
+    grid-area: cajita-8;
+    background-color: rgb(123, 214, 18);
+}
+
+.novena{
+    grid-area: cajita-9;
+    background-color: rgb(255, 238, 0);
+}
+
+.décima{
+    grid-area: cajita-10;
+    background-color: rgb(108, 10, 133);
+}
+
+.once {
+    grid-area: cajita-11;
+    background-color: rgb(51, 82, 68);
+}
+
+.doce{
+    grid-area: cajita-12;
+    background-color: rgb(21, 255, 0);
+}
+
+.trece{
+    grid-area: cajita-13;
+    background-color: rgb(0, 108, 248);
+}
+
+.catorce{
+    grid-area: cajita-14;
+    background-color: rgb(240, 0, 92);
+}
+
+.quince{
+    grid-area: cajita-15;
+    background-color: rgb(165, 190, 136);
+}
+
